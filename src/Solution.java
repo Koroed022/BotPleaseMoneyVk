@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 public class Solution  {
     public static String token;
-    public static String countSec;
+    public static int countSec;
     public static String[] mess = new String[20];
     public static void main(String[] args) {
 
@@ -17,18 +17,18 @@ public class Solution  {
 
             int i = 1;
             while ((strLine = br.readLine()) != null){
-                if (i == 2)
-                    countSec = strLine.split("s")[0];
+                if (i == 3) {
+                    countSec = Integer.parseInt(strLine.split("s")[0]);
+                }
                 if (i == 4) {
                     token = strLine;
                     System.out.println(token);
                 }
-                if (i > 4){
+                if (i > 4)
                     {
                         mess[i] = strLine;
                         System.out.println(mess[i] + "  " + i);
                     }
-                }
                 i++;
             }
         }catch (IOException e){

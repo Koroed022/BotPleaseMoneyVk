@@ -71,14 +71,14 @@ public class VKScribe {
 
                         Desktop.getDesktop().browse(new URI(captchaURL));
                         if (!captchaURL.equals(null)) {
-                            Thread.sleep(1000 * Integer.parseInt(Solution.countSec));
+                            Thread.sleep(1000 * Solution.countSec);
                             break;
                         }
                     } catch (Exception e) {
                         e.getMessage();
                     }
                     i++;
-                    Thread.sleep(1000 * Integer.parseInt(Solution.countSec));
+                    Thread.sleep(1000 * Solution.countSec);
                 }
             }
             if (i < Integer.parseInt(count))
