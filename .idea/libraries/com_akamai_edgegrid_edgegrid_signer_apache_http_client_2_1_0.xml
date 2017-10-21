@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="com.akamai.edgegrid:edgegrid-signer-apache-http-client:2.1.0" type="repository">
+    <properties maven-id="com.akamai.edgegrid:edgegrid-signer-apache-http-client:2.1.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/akamai/edgegrid/edgegrid-signer-apache-http-client/2.1.0/edgegrid-signer-apache-http-client-2.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/akamai/edgegrid/edgegrid-signer-core/2.1.0/edgegrid-signer-core-2.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.1/commons-configuration2-2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
